@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Airports</title>
+     <link rel = stylesheet href = style.css />
+     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+     <link href = bootstrap.min.css rel = stylesheet />
+
+</head>
+<body>
+  <main>
+
+    <h1 class = 'a2 text-center'>Search App for flights by Maciej Zaleski</h1>
+    <div class="app">
+
+        <form class = form1>
+          <label>Select Your start airport</label>
+          <button class = 'ab1 btn-success'>Restart search scores</button>
+          <br />
+          <select class = port>
+            <option value=" "></option>
+          </select>
+          <br /><br />
+        <input class = 'btn0 btn-primary' type = submit value = 'confirm Your selected start airport' />
+        <br />
+          <br />
+          <label>Select Your destination airport</label>
+          <br />
+          <select class = city>
+            <option value="city"></option>
+          </select>
+            <br />
+            <label>Start writing Your destination airport from list of availaible airports </label>
+            <br />
+            <input class = resul type =text />
+            <br />
+          <label>Departure date</label>
+          <br />
+          <input type =date />
+            <br />
+            <br />
+          <label>Return flight date</label>
+          <br />
+          <input type =date />
+            <br />
+          <br />
+          <input class = 'btn0 btn-success' type = submit value = "Send us Your query" />
+
+        </form>
+
+        <div id = results>
+
+        </div>
+    </div>
+  </main>
+<footer>
+  <div class =wrapper>
+  <h3>User Instruction</h3>
+  <ul>
+  <li>  1) Choose Your start Airport from the first field from top.</li>
+  <li>  2) Click button 'Confirm Your selected airport'.</li>
+  <li>  3) Check availiable destination airports in second field from top.</li>
+  <li>  4) Start writing Your's chosen airport in third field from top.</li>
+  <li>  5) Send Us Your's choise by clicking ('Send us Your query'). (What was not implemented for this task).</li>
+  </ul>
+
+  </div>
+</footer>
+
+    <script src="jquery.min.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
